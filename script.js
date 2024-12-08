@@ -16,3 +16,8 @@ function getRandomInt(max) {
 console.log(getRandomInt(3));
 //Generates either 0, 1 or 2 randomly
 
+let computerChoice = 0
+
+//If result of getRandomInt is 0, computerChoice is "Rock"
+//If result of getRandomInt is 1, computerChoice is "Paper"
+//If result of getRandomInt is 2, computerChoice is "Scissors"
