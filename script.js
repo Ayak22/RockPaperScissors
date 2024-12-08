@@ -10,13 +10,23 @@ console.log("Hello World!");
 //Math.random will generate a random number, can this be used and converted to string?
 //Console.log the function
 
-function getRandomInt(max) {
+let computerChoice = 0
+
+function getComputerChoice(max) {
     return Math.floor(Math.random() * max);
 }
-console.log(getRandomInt(3));
+console.log(getComputerChoice(3));
 //Generates either 0, 1 or 2 randomly
 
-let computerChoice = 0
+if (getComputerChoice = 0) {
+    computerChoice = "Rock";
+} else if (getComputerChoice = 1) {
+   computerChoice = "Paper";
+} else {
+   computerChoice = "Scissors";
+}
+
+console.log(computerChoice);
 
 //If result of getRandomInt is 0, computerChoice is "Rock"
 //If result of getRandomInt is 1, computerChoice is "Paper"
